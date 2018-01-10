@@ -1,0 +1,297 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F8465ADC60445F81032DDC7 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F846CCEC3ABCD27AA105AC7 /* main.swift */; };
+		7F846B98FCE6028C4E04DD46 /* BlockchainServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8469E3B973A48A44A1E5E7 /* BlockchainServer.swift */; };
+		881F60FF2005B5D200FAF0FD /* Blockchain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881F60FC2005B5D200FAF0FD /* Blockchain.swift */; };
+		881F61002005B5D200FAF0FD /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881F60FD2005B5D200FAF0FD /* Transaction.swift */; };
+		881F61012005B5D200FAF0FD /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881F60FE2005B5D200FAF0FD /* Block.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7F846C8AFDC502164993EBFF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7F8467482C3F5A0D3A3629D9 /* BlockChainSwiftCLI */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BlockChainSwiftCLI; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F84676FC9C6616C8CAE357C /* BlockchainSwiftCLI-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BlockchainSwiftCLI-Bridging-Header.h"; sourceTree = "<group>"; };
+		7F8469E3B973A48A44A1E5E7 /* BlockchainServer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockchainServer.swift; sourceTree = "<group>"; };
+		7F846CCEC3ABCD27AA105AC7 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		881F60FC2005B5D200FAF0FD /* Blockchain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Blockchain.swift; path = BlockChainSwiftCLI/Blockchain/Blockchain.swift; sourceTree = SOURCE_ROOT; };
+		881F60FD2005B5D200FAF0FD /* Transaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Transaction.swift; path = BlockChainSwiftCLI/Blockchain/Transaction.swift; sourceTree = SOURCE_ROOT; };
+		881F60FE2005B5D200FAF0FD /* Block.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Block.swift; path = BlockChainSwiftCLI/Blockchain/Block.swift; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F8460E4597E23A999485874 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F8463B4674443BD9A989702 = {
+			isa = PBXGroup;
+			children = (
+				7F84676FC9C6616C8CAE357C /* BlockchainSwiftCLI-Bridging-Header.h */,
+				7F846AEB73C4B0251CC0F516 /* Products */,
+				7F8467BF73C82B9AA71F30B2 /* BlockChainSwiftCLI */,
+			);
+			sourceTree = "<group>";
+		};
+		7F8467BF73C82B9AA71F30B2 /* BlockChainSwiftCLI */ = {
+			isa = PBXGroup;
+			children = (
+				881F60FB2005B59400FAF0FD /* Blockchain */,
+				7F846CCEC3ABCD27AA105AC7 /* main.swift */,
+				7F8469E3B973A48A44A1E5E7 /* BlockchainServer.swift */,
+			);
+			path = BlockChainSwiftCLI;
+			sourceTree = "<group>";
+		};
+		7F846AEB73C4B0251CC0F516 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F8467482C3F5A0D3A3629D9 /* BlockChainSwiftCLI */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		881F60FB2005B59400FAF0FD /* Blockchain */ = {
+			isa = PBXGroup;
+			children = (
+				881F60FE2005B5D200FAF0FD /* Block.swift */,
+				881F60FC2005B5D200FAF0FD /* Blockchain.swift */,
+				881F60FD2005B5D200FAF0FD /* Transaction.swift */,
+			);
+			name = Blockchain;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F846841DFEE299C0524EB60 /* BlockChainSwiftCLI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F846AE6EC73B003367B8B25 /* Build configuration list for PBXNativeTarget "BlockChainSwiftCLI" */;
+			buildPhases = (
+				7F846AE7670FCC8E32C8A608 /* Sources */,
+				7F8460E4597E23A999485874 /* Frameworks */,
+				7F846C8AFDC502164993EBFF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlockChainSwiftCLI;
+			productName = BlockChainSwiftCLI;
+			productReference = 7F8467482C3F5A0D3A3629D9 /* BlockChainSwiftCLI */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F8468D0D866D38C0B000B19 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+			};
+			buildConfigurationList = 7F84656BEEAB9F803A7A67A6 /* Build configuration list for PBXProject "BlockChainSwiftCLI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7F8463B4674443BD9A989702;
+			productRefGroup = 7F846AEB73C4B0251CC0F516 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F846841DFEE299C0524EB60 /* BlockChainSwiftCLI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F846AE7670FCC8E32C8A608 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F8465ADC60445F81032DDC7 /* main.swift in Sources */,
+				881F61012005B5D200FAF0FD /* Block.swift in Sources */,
+				881F60FF2005B5D200FAF0FD /* Blockchain.swift in Sources */,
+				881F61002005B5D200FAF0FD /* Transaction.swift in Sources */,
+				7F846B98FCE6028C4E04DD46 /* BlockchainServer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7F8460000A22F63E2C9515DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BlockchainSwiftCLI-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		7F846042D434DAD510A78F53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BlockchainSwiftCLI-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		7F8462CB620E0873CA02079B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7F8469C08D7147494F26834F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F84656BEEAB9F803A7A67A6 /* Build configuration list for PBXProject "BlockChainSwiftCLI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F8462CB620E0873CA02079B /* Debug */,
+				7F8469C08D7147494F26834F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F846AE6EC73B003367B8B25 /* Build configuration list for PBXNativeTarget "BlockChainSwiftCLI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F846042D434DAD510A78F53 /* Debug */,
+				7F8460000A22F63E2C9515DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F8468D0D866D38C0B000B19 /* Project object */;
+}
